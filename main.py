@@ -133,9 +133,8 @@ class HP4282A_data_retreive():
                 writer.writerow(l2.split('\t'))
             file.close()
         else:
-            file = open(file_target.name, 'w')
-            data = np.array(data)
-            data.savetxt(file, data)
+            file = open(file_target.name, 'wb')
+            file.write(data)
             file.close()
             
 
