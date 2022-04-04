@@ -15,3 +15,5 @@ All other files save by the HP4294a IA are not decoded, and are dumped into a ra
 Python 3.X, py-visa.
 
 Needs OS VISA driver (National Instruments for example)
+
+If it works for your system, please let me know!
