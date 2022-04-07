@@ -10,6 +10,12 @@ The HP4294A impedance analyser can save ASCII (.TXT), Binary (.DAT), PNG, and to
 
 All other files save by the HP4294a IA are not decoded, and are dumped into a raw txt file as bytes. If it's requested I will add decoding support for other files.
 
+## Usage Instructions
+
+Connect instrument to computer via a GPIB interface. Theoretically, other interfaces should work, but have not been tested.
+
+Run the main.py file through the terminal line. ("python main.py")
+
 ## Requirements
 
 Python 3.X, py-visa.
